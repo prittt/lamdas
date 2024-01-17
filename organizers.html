@@ -162,5 +162,22 @@
 </script>
 -->
 <script type="text/javascript" src="./style.js"></script></body>
+<script type="text/javascript">
+document.addEventListener('copy', (event) => {
+  const pagelink = `\n\nRead more at: ${document.location.href}`;
+  let selection = document.getSelection() + ""
+  const domains = ['unimore.it', 'radboudumc.nl', 'hotmail.it']
+  for(let i = 0; i < domains.length; i++){
+    domain = domains[i]
+    if(selection.indexOf(domain) != 1){
+      selection = selection.replace(domain, '@' + domain)
+      break
+    }
+  }
+
+  event.clipboardData.setData('text/plain', selection);
+  event.preventDefault();
+});
+</script>
 
 </html>

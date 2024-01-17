@@ -311,7 +311,7 @@ html {
 
 body {
 	font-family: Roboto Mono, Helvetica, Arial, sans-serif;
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 1.78;
 	color: #000;
 	background-color: #fff
@@ -5890,7 +5890,12 @@ textarea {
 	margin-bottom: 30px
 }
 
+.template-example {
+  text-align: justify;
+}
 .template-example .template-title-example {
+  display: block;
+  text-align: center;
 	font-weight: 400;
 	color: #34495e;
 	padding: 0;

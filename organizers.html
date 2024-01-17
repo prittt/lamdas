@@ -51,71 +51,68 @@
   </nav>
 </header>
 
+<style>
+    img {
+        border-radius: 50%;
+        max-width: 150px;
+        width: 100%;
+    }
+    .vertical-center {
+        display: flex;
+        align-items: center;
+    }
+</style>
 
 <div class="section-container">
-
   <div class="container">
-    <div class="row justify-content-around">
-      <div class="col-xs-8">
-            <div class="template-example">
-                <style>
-                    img {
-                        border-radius: 50%;
-                        max-width: 150px;
-                        width: 100%;
-                    }
-                    .vertical-center {
-                        display: flex;
-                        align-items: center;
-                    }
-                </style>
-                <h2 class="template-title-example">Organizers</h2>
-                <div class="row vertical-center">
-                    <div><img src="assets/images/bolelli.png"></div>
-                    <div class="col-xs-8 text-left"><h3>Federico Bolelli</h3>University of Modena and Reggio Emilia, Italy</div>
-                </div><br>
-                <div class="row vertical-center">
-                    <div class="col-xs-8 text-right"><h3>Luca Lumetti</h3>University of Modena and Reggio Emilia, Italy</div>
-                    <div><img src="assets/images/lumetti.png"></div>
-                </div><br>
-                <div class="row vertical-center">
-                    <div><img src="assets/images/shank.png"></div>
-                    <div class="col-xs-8 text-left"><h3>Shankeeth Vinayahalingam</h3>Radboud University, Netherlands</div>
-                </div><br>
-                <div class="row vertical-center">
-                    <div class="col-xs-8 text-right"><h3>Mattia Di Bartolomeo</h3>University of Modena and Reggio Emilia, Italy</div>
-                    <div><img src="assets/images/dibartolomeo.png"></div>
-                </div><br>
-                <div class="row vertical-center">
-                    <div><img src="assets/images/niels.jpg"></div>
-                    <div class="col-xs-8 text-left"><h3>Niels van Nistelrooij</h3>Radboud University, Netherlands</div>
-                </div><br>
-                <div class="row vertical-center">
-                <div class="col-xs-8 text-right"><h3>Kevin Marchesini</h3>University of Modena and Reggio Emilia, Italy</div>
-                    <div><img src="assets/images/marchesini.jpg"></div>
-                </div><br>
-                <div class="row vertical-center">
-                    <div><img src="assets/images/anesi.png"></div>
-                  <div class="col-xs-8 text-left"><h3>Alexandre Anesi</h3>University of Modena and Reggio Emilia, Italy</div>
-                </div><br>
-                <div class="row vertical-center">
-                  <div class="col-xs-8 text-right"><h3>Costantino Grana</h3>University of Modena and Reggio Emilia, Italy</div>
-                    <div><img src="assets/images/grana.png"></div>
-                </div>
+    <div class="template-example">
+      <h2 class="template-title-example">Organizers</h2>
+      <div class="row vertical-center">
+            <div class="col-xs-offset-1 col-xs-2"><img src="assets/images/bolelli.png"></div>
+            <div class="col-md-8 text-left"><h3>Federico Bolelli</h3>University of Modena and Reggio Emilia, Italy</div>
+      </div>
+      <div class="row vertical-center">
+            <div class="col-xs-offset-1 col-xs-8 text-right"><h3>Luca Lumetti</h3>University of Modena and Reggio Emilia, Italy</div>
+            <div class="col-xs-2"><img src="assets/images/lumetti.png"></div>
+      </div>
+      <div class="row vertical-center">
+            <div class="col-xs-offset-1 col-xs-2"><img src="assets/images/shank.png"></div>
+            <div class="col-md-8 text-left"><h3>Shankeeth Vinayahalingam</h3>Radbound University, Netherlands</div>
+      </div>
+      <div class="row vertical-center">
+            <div class="col-xs-offset-1 col-xs-8 text-right"><h3>Mattia Di Bartolomeo</h3>University of Modena and Reggio Emilia, Italy</div>
+            <div class="col-xs-2"><img src="assets/images/dibartolomeo.png"></div>
+      </div>
+      <div class="row vertical-center">
+            <div class="col-xs-offset-1 col-xs-2"><img src="assets/images/niels.jpg"></div>
+            <div class="col-md-8 text-left"><h3>Niels van Nistelrooij</h3>Radbound University, Netherlands</div>
+      </div>
+      <div class="row vertical-center">
+            <div class="col-xs-offset-1 col-xs-8 text-right"><h3>Kevin Marchesini</h3>University of Modena and Reggio Emilia, Italy</div>
+            <div class="col-xs-2"><img src="assets/images/marchesini.jpg"></div>
+      </div>
+      <div class="row vertical-center">
+            <div class="col-xs-offset-1 col-xs-2"><img src="assets/images/anesi.png"></div>
+            <div class="col-md-8 text-left"><h3>Alexandre Anesi</h3>University of Modena and Reggio Emilia, Italy</div>
+      </div>
+      <div class="row vertical-center">
+            <div class="col-xs-offset-1 col-xs-8 text-right"><h3>Costantino Grana</h3>University of Modena and Reggio Emilia, Italy</div>
+            <div class="col-xs-2"><img src="assets/images/grana.png"></div>
+      </div>
 
-                <p>You can contact us by e-mail at <code>{name.surname}@unimore.it</code></p>
-
-                <h2 class="template-title-example">Program committee</h2>
-
-                <div class="row vertical-center">
-                    <div><img src="assets/images/surname.png"></div>
-                    <div class="col-xs-8 text-left">Name Surname, Affiliation, Country</div>
-                </div>
-                <div class="row vertical-center">
-                    <div class="col-xs-8 text-right">Name Surname, Affiliation, Country</div>
-                    <div><img src="assets/images/surname.png"></div>
-                </div>
-            </div>
+      <div class="row">
+        <div class="col-xs-12 text-center">
+          <p>You can contact us by e-mail at <code>{name.surname}@unimore.it</code> for people from the University of Modena and Reggio Emilia or at {idk.idk@radboudmc.nl} for people from Radboud University.</p>
+        </div>
+      </div>
+      <h2 class="template-title-example">Program committee</h2>
+      <div class="row vertical-center">
+            <div class="col-xs-offset-1 col-xs-2"><img src="assets/images/blank.png"></div>
+            <div class="col-md-8 text-left"><h3>Name Surname</h3>Affiliation</div>
+      </div>
+      <div class="row vertical-center">
+            <div class="col-xs-offset-1 col-xs-8 text-right"><h3>Name Surname</h3>Affiliation</div>
+            <div class="col-xs-2"><img src="assets/images/blank.png"></div>
       </div>
     </div>
   </div>
@@ -124,10 +121,11 @@
 <footer class="footer-container text-center">
   <div class="container">
     <div class="row">
-      <div class="col-xs-8">
+      <div class="col-xs-12">
         <p>This workshop is organized in conjunction with the <br/> <a href="https://conferences.miccai.org/2024/en/" target="_blank">27th International Conference on Medical Image Computing and Computer Assisted Intervention</a> <br/>October 6-10 2024, Marrakesh (Morocco)</p>
       </div>
     </div>
+      </div>
   </div>
 </footer>
 

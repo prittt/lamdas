@@ -10,6 +10,20 @@
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
+.fake-at:after {
+  content: "@";
+}
+
+.mini-footer-index {
+  left: 20px;
+  bottom: -5px;
+  font-size: 10px;
+  position: absolute;
+  line-height: 10px;
+  color: #666666!important;
+  letter-spacing: -1px;
+}
+
 html {
 	font-family: sans-serif;
 	-ms-text-size-adjust: 100%;
@@ -77,7 +91,7 @@ dfn {
 }
 
 h1 {
-	font-size: 1em;
+	font-size: 1.2em;
 	margin: .67em 0
 }
 
@@ -132,7 +146,7 @@ kbd,
 pre,
 samp {
 	font-family: monospace, monospace;
-	font-size: 1em
+	font-size: 1.2em
 }
 
 button,
@@ -305,7 +319,7 @@ th {
 }
 
 html {
-	font-size: 10px;
+	font-size: 12px;
 	-webkit-tap-highlight-color: transparent
 }
 
@@ -2345,7 +2359,7 @@ textarea.input-sm {
 .input-lg {
 	height: 41px;
 	padding: 10px 16px;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 1.33333;
 	border-radius: 0
 }
@@ -2372,7 +2386,7 @@ textarea.input-lg {
 .form-group-lg .form-control {
 	height: 41px;
 	padding: 10px 16px;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 1.33333;
 	border-radius: 0
 }
@@ -4072,7 +4086,7 @@ tbody.collapse.in {
 .navbar-brand {
 	float: left;
 	padding: .5px 15px;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 19px;
 	height: 20px
 }
@@ -5870,7 +5884,7 @@ textarea {
 }
 
 .nav>li>a {
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 300;
 	-webkit-transition: all .1s linear;
 	-o-transition: all .1s linear;

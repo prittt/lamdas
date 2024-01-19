@@ -10,6 +10,15 @@
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
+.dark-bg-link {
+  color: inherit;
+}
+
+/* .dark-bg-link:hover { */
+/*   color: inherit!important; */
+/*   user-select: text; */
+/* } */
+
 .fake-at:after {
   content: "@";
 }
@@ -22,6 +31,17 @@
   line-height: 10px;
   color: #666666!important;
   letter-spacing: -1px;
+}
+
+.breakable-text{
+  word-wrap:break-word;
+	padding: 60px 0 0 0;
+}
+
+@media (min-width:1200px) {
+	.breakable-text {
+		padding: 80px 0
+	}
 }
 
 .cites {
@@ -5920,6 +5940,8 @@ textarea {
 .template-example {
   text-align: justify;
 }
+
+
 .template-example .template-title-example {
   display: block;
   text-align: center;
@@ -5942,6 +5964,16 @@ textarea {
 .template-example .table>thead>tr>th {
   padding: 0 15px
 }
+
+@media (max-width:768px) {
+  .template-example {
+    text-align: left;
+  }
+  /* .template-example .template-title-example { */
+  /*   text-align: left; */
+  /* } */
+}
+
 
 .list-icons {
   list-style: none;

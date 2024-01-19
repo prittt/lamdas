@@ -4,10 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
-  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="width=500px,initial-scale=1" name="viewport">
   <meta content="description" name="description">
   <meta name="google" content="notranslate" />
-  <meta content="Mashup templates have been developped by Orson.io team" name="author">
 
   <!-- Disable tap highlight on IE -->
   <meta name="msapplication-tap-highlight" content="no">
@@ -57,7 +56,7 @@
         max-width: 150px;
         width: 100%;
     }
-    /* .vertical-center { */
+    /* .hoverable { */
     /*     display: inline-block; */
     /*     align-items: center; */
     /* } */
@@ -66,46 +65,95 @@
       vertical-align: middle;
       float: none;
     }
+
+    /* .hoverable { */
+    /*   cursor: pointer; */
+    /* } */
+    /* .hoverable:hover { */
+    /*   background-color: #eeeeee; */
+    /* } */
 </style>
 
   <div class="container-fluid breakable-text">
     <div class="template-example">
       <h2 class="template-title-example">Organizers</h2>
-      <div class="row vertical-center align-middle">
+      <div class="row hoverable align-middle" id="bolelli">
           <div class="col-xs-4 text-right vcenter"><img src="assets/images/bolelli.png"></div><!--
-       --><div class="col-xs-8 text-left vcenter"><h3>Federico Bolelli</h3>federico.bolelli<span class="fake-at"></span>unimore.it<br>University of Modena and Reggio Emilia, Italy</div>
+       --><div class="col-xs-8 text-left vcenter">
+            <h3>Federico Bolelli</h3>
+            federico.bolelli<span class="fake-at"></span>unimore.it<br>
+            University of Modena and Reggio Emilia, Italy<br>
+            <a href="https://federicobolelli.it">https://federicobolelli.it</a>
+          </div>
       </div>
-      <div class="row vertical-center">
-          <div class="col-xs-8 text-right vcenter"><h3>Luca Lumetti</h3>lumetti.luca<span class="fake-at"></span>unimore.it<br>University of Modena and Reggio Emilia, Italy</div><!--
+      <div class="row hoverable" id="lumetti">
+          <div class="col-xs-8 text-right vcenter">
+            <h3>Luca Lumetti</h3>
+            lumetti.luca<span class="fake-at"></span>unimore.it<br>
+              University of Modena and Reggio Emilia, Italy<br>
+            <a href="https://lucalumetti.it">https://lucalumetti.it</a>
+          </div><!--
        --><div class="col-xs-4 text-left vcenter"><img src="assets/images/lumetti.png"></div>
       </div>
-      <div class="row vertical-center">
+      <div class="row hoverable" id="shank">
             <div class="col-xs-4 text-right vcenter"><img src="assets/images/shank.png"></div><!--
-         --><div class="col-xs-8 text-left vcenter"><h3>Shankeeth Vinayahalingam</h3>shankeeth.vinayahalingam<span class="fake-at"></span>radboudumc.nl<br>Radbound University, Netherlands</div>
+         --><div class="col-xs-8 text-left vcenter">
+            <h3>Shankeeth Vinayahalingam</h3>
+            shankeeth.vinayahalingam<span class="fake-at"></span>radboudumc.nl<br>
+              Radbound University, Netherlands<br>
+            <!-- <a href="https://www.diagnijmegen.nl/people/shankeeth-vinayahalingam/">https://www.diagnijmegen.nl/people/shankeeth-vinayahalingam/</a> -->
+          </div>
       </div>
-      <div class="row vertical-center">
-            <div class="col-xs-8 text-right vcenter"><h3>Mattia Di Bartolomeo</h3>mattiadiba<span class="fake-at"></span>hotmail.it<br>University of Modena and Reggio Emilia, Italy</div><!--
+      <div class="row hoverable" id="dibartolomeo">
+            <div class="col-xs-8 text-right vcenter">
+              <h3>Mattia Di Bartolomeo</h3>
+              mattiadiba<span class="fake-at"></span>hotmail.it<br>
+              University of Modena and Reggio Emilia, Italy<br>
+            </div><!--
          --><div class="col-xs-4 text-left vcenter"><img src="assets/images/dibartolomeo.png"></div>
       </div>
-      <div class="row vertical-center">
+      <div class="row hoverable" id="niels">
             <div class="col-xs-4 text-right vcenter"><img src="assets/images/niels.jpg"></div><!--
-         --><div class="col-xs-8 text-left vcenter"><h3>Niels van Nistelrooij</h3>niels.vannistelrooij<span class="fake-at"></span>radboudumc.nl<br>Radbound University, Netherlands</div>
+         --><div class="col-xs-8 text-left vcenter">
+              <h3>Niels van Nistelrooij</h3>
+              niels.vannistelrooij<span class="fake-at"></span>radboudumc.nl<br>
+              Radbound University, Netherlands<br>
+              <!-- <a href="https://www.diagnijmegen.nl/people/niels-van-nistelrooij/">https://www.diagnijmegen.nl/people/niels-van-nistelrooij/</a> -->
+            </div>
       </div>
-      <div class="row vertical-center">
-            <div class="col-xs-8 text-right vcenter"><h3>Kevin Marchesini</h3>kevin.marchesini<span class="fake-at"></span>unimore.it<br>University of Modena and Reggio Emilia, Italy</div><!--
+      <div class="row hoverable" id="marchesini">
+            <div class="col-xs-8 text-right vcenter">
+              <h3>Kevin Marchesini</h3>
+              kevin.marchesini<span class="fake-at"></span>unimore.it<br>
+              University of Modena and Reggio Emilia, Italy<br>
+              <!-- <a href="https://personale.unimore.it/Rubrica/dettaglio/249277">https://personale.unimore.it/Rubrica/dettaglio/249277</a> -->
+          </div><!--
          --><div class="col-xs-4 text-left vcenter"><img src="assets/images/marchesini.jpg"></div>
       </div>
-	  <div class="row vertical-center">
+      <div class="row hoverable" id="ficarra">
             <div class="col-xs-4 text-right vcenter"><img src="assets/images/ficarra.png"></div><!--
-         --><div class="col-xs-8 text-left vcenter"><h3>Elisa Ficarra</h3>elisa.ficarra<span class="fake-at"></span>unimore.it<br>University of Modena and Reggio Emilia, Italy</div>
+         --><div class="col-xs-8 text-left vcenter">
+              <h3>Elisa Ficarra</h3>
+              elisa.ficarra<span class="fake-at"></span>unimore.it<br>
+              University of Modena and Reggio Emilia, Italy<br>
+              <!-- <a href="https://personale.unimore.it/Rubrica/dettaglio/eficarra"></a> -->
+          </div>
       </div>
-      <div class="row vertical-center">
-            <div class="col-xs-8 text-right vcenter"><h3>Alexandre Anesi</h3>alexandre.anesi<span class="fake-at"></span>unimore.it<br>University of Modena and Reggio Emilia, Italy</div><!--
-         --><div class="col-xs-4 text-left vcenter"><img src="assets/images/anesi.png"></div>
+      <div class="row hoverable" id="anesi">
+        <div class="col-xs-8 text-right vcenter">
+          <h3>Alexandre Anesi</h3>
+          alexandre.anesi<span class="fake-at"></span>unimore.it<br>
+          University of Modena and Reggio Emilia, Italy<br>
+        </div><!--
+     --><div class="col-xs-4 text-left vcenter"><img src="assets/images/anesi.png"></div>
       </div>
-	  <div class="row vertical-center">
-            <div class="col-xs-4 text-right vcenter"><img src="assets/images/grana.png"></div><!--
-         --><div class="col-xs-8 text-left vcenter"><h3>Costantino Grana</h3>costantino.grana<span class="fake-at"></span>unimore.it<br>University of Modena and Reggio Emilia, Italy</div>
+      <div class="row hoverable" id="grana">
+        <div class="col-xs-4 text-right vcenter"><img src="assets/images/grana.png"></div><!--
+     --><div class="col-xs-8 text-left vcenter">
+          <h3>Costantino Grana</h3>
+          costantino.grana<span class="fake-at"></span>unimore.it<br>
+          University of Modena and Reggio Emilia, Italy
+        </div>
       </div>
 
       <!-- <div class="row"> -->
@@ -115,11 +163,11 @@
       <!-- </div> -->
 
       <h2 class="template-title-example">Program committee</h2>
-      <div class="row vertical-center">
+      <div class="row hoverable">
             <div class="col-xs-4 text-right"><img src="assets/images/liver.png"></div>
             <div class="col-xs-8 text-left"><h3>Name Surname</h3>E-mail<br>Affiliation</div>
       </div>
-      <div class="row vertical-center">
+      <div class="row hoverable">
             <div class="col-xs-8 text-right"><h3>Name Surname</h3>E-mail<br>Affiliation</div>
             <div class="col-xs-4 text-left"><img src="assets/images/heart.png"></div>
       </div>
@@ -127,9 +175,9 @@
   </div>
 
 <footer class="footer-container text-center">
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-xs-12">
         <p>This workshop is organized in conjunction with the <br/> <a href="https://conferences.miccai.org/2024/en/" target="_blank">27th International Conference on Medical Image Computing and Computer Assisted Intervention</a> <br/>October 6-10 2024, Marrakesh (Morocco)</p>
       </div>
     </div>
@@ -186,6 +234,31 @@ document.addEventListener('copy', (event) => {
   event.clipboardData.setData('text/plain', selection);
   event.preventDefault();
 });
+
+
+// // links
+// let name_url = {
+//   'bolelli': 'https://federicobolelli.it',
+//   'lumetti': 'https://lucalumetti.it',
+//   'shank': 'https://www.diagnijmegen.nl/people/shankeeth-vinayahalingam/',
+//   // 'dibartolomeo': '',
+//   'niels': 'https://www.diagnijmegen.nl/people/niels-van-nistelrooij/',
+//   'marchesini': 'https://personale.unimore.it/Rubrica/dettaglio/249277',
+//   'ficarra': 'https://personale.unimore.it/Rubrica/dettaglio/eficarra',
+//   'anesi': 'https://personale.unimore.it/rubrica/dettaglio/aanesi',
+//   'grana': 'https://personale.unimore.it/rubrica/dettaglio/cgrana',
+// }
+//
+// keys = Object.keys(name_url)
+// for(let i = 0; i < keys.length; i++){
+//   let k = keys[i]
+//   let url = name_url[keys[i]]
+//   let e = document.getElementById(k);
+//
+//   e.addEventListener('click', () => {
+//     window.location.href = url;
+//   });
+// }
 </script>
 
 </html>

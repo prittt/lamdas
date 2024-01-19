@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
-  <meta content="width=500px,initial-scale=1" name="viewport">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
   <meta content="description" name="description">
   <meta name="google" content="notranslate" />
   <meta content="Mashup templates have been developped by Orson.io team" name="author">
@@ -115,6 +115,20 @@
   ga('send', 'pageview');
 </script>
 -->
-<script type="text/javascript" src="./style.js"></script></body>
+<script type="text/javascript" src="./style.js"></script>
+  <script>
+    if (document.body.clientWidth < 768) {
+      viewport = document.querySelector("meta[name=viewport]");
+    }
+    viewport.setAttribute('content', '')
+  </script>
+</body>
+
+<script>
+  if (document.body.clientWidth < 768) {
+    viewport = document.querySelector("meta[name=viewport]");
+    viewport.setAttribute('content', 'width=device-width, initial-scale=0.67, user-scalable=0');
+  }
+</script>
 
 </html>
